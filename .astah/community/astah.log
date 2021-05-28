@@ -1,0 +1,9 @@
+2021-05-22 17:21:53,329 [main] JP.co.esm.caddies.jomt.Jude <INFO> - #### === Community 7.0.0 / 846701 ==============================
+2021-05-22 17:21:53,332 [main] JP.co.esm.caddies.jomt.Jude <INFO> - start program args []
+2021-05-22 17:21:53,334 [main] JP.co.esm.caddies.jomt.Jude <INFO> - start vm args [-Xms16m, -Xmx512m, -Dsun.java2d.d3d=false]
+2021-05-22 17:21:53,335 [main] JP.co.esm.caddies.jomt.jsystem.k <INFO> - jude property file not found. It is created at the time of the end of application.
+2021-05-22 17:21:55,982 [AWT-EventQueue-0] JP.co.esm.caddies.jomt.jview.swing.f <INFO> - maybe initial value of system property.
+2021-05-22 17:21:57,041 [Thread-5] JP.co.esm.caddies.jomt.jutil.U <INFO> - This is the latest version of Astah.
+2021-05-22 17:22:01,766 [AWT-EventQueue-0] JP.co.esm.caddies.jomt.jsystem.k <INFO> - file: C:\Users\Tibame_T14\.astah\community\Jude.properties
+2021-05-22 17:22:01,771 [AWT-EventQueue-0] JP.co.esm.caddies.jomt.jutil.JomtUtilities2 <INFO> - file: C:\Users\Tibame_T14\.astah\community\astah_command.log
+2021-05-22 17:22:01,794 [AWT-EventQueue-0] JP.co.esm.caddies.jomt.jutil.l <INFO> - stack=5m

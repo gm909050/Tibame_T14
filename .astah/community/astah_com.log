@@ -1,0 +1,79 @@
+===========================================================
+astah_com.log
+date: 22 May 2021 17:21:54 CST
+ver: Community 7.0.0 / 846701
+java ver: 1.8.0_45
+java vendor: Oracle Corporation
+os name: Windows 8.1
+os ver: 6.3
+look and feel: Windows
+system scale: 150.00%
+===========================================================
+----------------------------------------------------------
+                   System Properties                      
+----------------------------------------------------------
+
+java.runtime.name=Java(TM) SE Runtime Environment
+sun.boot.library.path=C:\Program Files\astah-community\jre\bin
+java.vm.version=25.45-b02
+sun.java2d.d3d=false
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+path.separator=;
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+user.country=TW
+user.script=
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=C:\Program Files\astah-community
+java.runtime.version=1.8.0_45-b15
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+java.endorsed.dirs=C:\Program Files\astah-community\jre\lib\endorsed
+os.arch=amd64
+java.io.tmpdir=C:\Users\TIBAME~1\AppData\Local\Temp\
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+user.variant=
+os.name=Windows 8.1
+sun.jnu.encoding=MS950
+java.library.path=C:\Program Files\astah-community\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;;C:\jdk1.8.0_201\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Tibame_T14\AppData\Local\Microsoft\WindowsApps;C:\Users\Tibame_T14\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\astah-community\jre\bin;.
+sun.awt.enableExtraMouseButtons=true
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+os.version=6.3
+user.home=C:\Users\Tibame_T14
+user.timezone=Asia/Taipei
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+file.encoding=MS950
+java.specification.version=1.8
+java.class.path=C:\Program Files\astah-community\astah-community.jar
+user.name=Tibame_T14
+java.vm.specification.version=1.8
+sun.java.command=C:\Program Files\astah-community\astah-community.jar
+java.home=C:\Program Files\astah-community\jre
+sun.arch.data.model=64
+user.language=zh
+java.specification.vendor=Oracle Corporation
+awt.toolkit=sun.awt.windows.WToolkit
+java.vm.info=mixed mode
+astah.plugin.enabled=true
+java.version=1.8.0_45
+java.ext.dirs=C:\Program Files\astah-community\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+sun.boot.class.path=C:\Program Files\astah-community\jre\lib\resources.jar;C:\Program Files\astah-community\jre\lib\rt.jar;C:\Program Files\astah-community\jre\lib\sunrsasign.jar;C:\Program Files\astah-community\jre\lib\jsse.jar;C:\Program Files\astah-community\jre\lib\jce.jar;C:\Program Files\astah-community\jre\lib\charsets.jar;C:\Program Files\astah-community\jre\lib\jfr.jar;C:\Program Files\astah-community\jre\classes
+java.vendor=Oracle Corporation
+astah.edition=community
+file.separator=\
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+sun.io.unicode.encoding=UnicodeLittle
+sun.cpu.endian=little
+sun.desktop=windows
+sun.cpu.isalist=amd64
+
+----------------------------------------------------------
+LN = null
+----------------------------------------------------------
+
