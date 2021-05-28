@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* todolist假設的最大範圍 */
+
+        #todolist_all {
+            width: 800px;
+        }
+
+        /* 所有li的樣式(我產生的清單) */
+
+        ul li {
+            cursor: pointer;
+            position: relative;
+            padding: 12px 8px 12px 40px;
+            background: #eee;
+            font-size: 18px;
+        }
+
+        /* 我要覆蓋上面的li樣式，讓我"基數"的li的背景樣式是別的顏色 */
+
+        ul li:nth-child(odd) {
+            background: #f9f9f9;
+        }
+
+        ul li:hover {
+            background: #ddd;
+        }
+
+        ul li.checked {
+            background: #888;
+            color: #fff;
+            text-decoration: line-through;
+        }
+
+        ul li.checked::before {
+            content: '';
+            position: absolute;
+            border-color: #fff;
+            border-style: solid;
+            border-width: 0 2px 2px 0;
+            top: 10px;
+            left: 16px;
+            transform: rotate(45deg);
+            height: 15px;
+            width: 7px;
+        }
+
+        .close {
+            position: absolute;
+            right: 0;
+            top: 0;
+            padding: 12px 16px 12px 16px;
+        }
+
+        .close:hover {
+            background-color: #ee655b;
+            color: white;
+        }
+
+        .header {
+            background-color: #edb8b4;
+            padding: 30px 40px;
+            color: white;
+            position: relative;
+        }
+
+        .header:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        input {
+            margin: 0;
+            border: 2px solid white;
+            border-radius: 8px;
+            width: 100%;
+            padding: 10px;
+            float: left;
+            font-size: 16px;
+        }
+
+        #btn {
+            padding: 6px;
+            width: 25%;
+            background: #d9d9d9;
+            color: #555;
+            text-align: center;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 8px;
+            position: absolute;
+            top: 62px;
+            right: 45px;
+        }
+
+        #btn:hover {
+            background-color: #bbb;
+        }
+    </style>
+</head>
+
+
+<body>
+    <section id="todolist_all">
+        <div id="myDIV" class="header">
+            <h2>To Do List</h2>
+            <input type="text" id="my_input" placeholder="要做什麼呢....">
+            <div id="btn">新增</div>
+        </div>
+
+        <ul id="my_list">
+            <li class="checked">
+                我輸入的文字
+                <span class="close">
+                    ×
+                </span>
+            </li>
+            <li>
+                coding todo list 一般情況的樣子
+                <span class="close">
+                    ×
+                </span>
+            </li>
+
+
+        </ul>
+    </section>
+
+
+<script>
+    // 18.我已經完成或未完成的樣式
+  
+        // 19.如果他的classNmae中沒有checked 我就加checked這個className
+        // 20.如果他的classNmae中有checked  我就移除checked這個className
+
+  
+
+    //15.刪除li
+    
+        //16.抓我點擊的這個span的爸爸元素(p...E....t)
+        
+
+
+    //點擊新增按鈕要做的事情
+    function new_list(){
+  //==================================================================
+        //2.設一個變數等等創建新的li(c....E....t)
+        let new_li;
+         //3.抓input text的值(v....e)
+         let my_input = document.queryCommandState('my_input').value;
+    }
+
+
+       
+        
+        //3.抓input text的值(v....e)
+        
+
+        //4.判斷input text的值有沒有東西(if....else)
+            //5. alert(提醒錯誤)
+          
+
+       
+            //6.創建新的li(c....E....t)
+            
+
+            //7.文字放進去剛剛創建的li
+            //input text的值放進去剛剛創建的li(c...T..N..e)//創立文字節點並且放到創建新的li中喔!(a...C...d)
+             //顯示輸入的my_input
+
+             //並放在li最後一個位子
+
+
+            //8.接著要把我們創建的li放進my_list的裡面，也就是給他新增他的小孩(a.....C....d)
+
+            
+
+
+            // 8.新增成功後我們幫忙把my_input的值清空
+            
+
+
+            //==================================================================
+            //==================================================================
+
+
+
+            //10.創建新的span(c....E....t)
+            
+
+            //11.文字放進去剛剛創建的li
+            //叉叉(\u00D7,x)放進去剛剛創建的span(c...T..N..e)//創立文字節點並且放到創建新的span中喔!(a...C...d)
+            
+
+            
+
+
+            //12.給他className叫做"close"(s..At....e)
+
+ 
+            //13.接著要把我們創建的new_span放進new_li的裡面，也就是給他新增他的小孩(a.....C....d)
+
+            
+
+
+            //14.注意!我們要註冊這些close的事件，讓我可以刪除他!function bye
+
+           
+            //17.注意!我們要註冊這些li的事件，讓我可以標註我完成了function checked_li
+
+          
+        //==================================================================
+
+    
+
+    function init() {
+
+        //1.新增的按鈕要註冊事件，點擊後呼叫function new_list
+        document.querySelector('#btn').addEventListener('click', new_list);
+
+    }
+    window.addEventListener('load', init);
+</script>
+</body>
+</html>
